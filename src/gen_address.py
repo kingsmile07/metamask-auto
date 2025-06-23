@@ -26,7 +26,7 @@ def restore_account_json(file_path):
 
 if __name__ == '__main__':
     accounts = list()
-    for i in range(1000):
+    for i in range(10):
         addr, key, mnemonic = create_new_mnemonic_account()
         account = {}
         account['address'] = addr

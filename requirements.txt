@@ -1,2 +1,23 @@
-selenium==4.1.0
-web3==5.26.0
+# 浏览器自动化
+undetected-chromedriver==3.5.5
+selenium==4.18.1
+selenium-stealth==1.0.6
+webdriver-manager==4.0.1
+
+# 工具包
+python-dotenv==1.0.1
+requests==2.31.0
+eth-account==0.11.0
+web3==6.15.1
+
+# 日志和时间处理
+python-dateutil==2.8.2
+pytz==2024.1
+
+# 系统和进程
+psutil==5.9.8
+
+# 开发工具
+pytest==8.0.2  # 用于测试
+black==24.2.0  # 用于代码格式化
+flake8==7.0.0  # 用于代码检查
